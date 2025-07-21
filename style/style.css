@@ -52,6 +52,10 @@ line-height: 76px;
     border-radius: 10px;
 }
 
+.bannar-right{
+    width:100%;
+}
+
 /***upcoming-match**/
 .upcoming-match{
     
@@ -146,4 +150,29 @@ line-height: 50px;
     grid-template-columns: repeat(2, 1fr);
  }
     
+}
+
+/*** mobile responsive ***/
+@media (max-width: 768px) {
+    .bannar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .bannar-right img{
+    width: 253px;
+height: 265px;
+margin-left: ;
+    
+}
+.bannar .bannar-left{
+    padding-left: 0;
+}
+.upcoming-match-right{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+}
+.upcoming-match-laft{
+    flex-direction: column;
+}
+
 }
