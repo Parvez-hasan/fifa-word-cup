@@ -158,10 +158,21 @@ line-height: 50px;
         flex-direction: column;
         text-align: center;
     }
+    .bannar-left{
+        padding: 12px;
+    }
+    .bannar-left h2{
+        font-size: 25px;
+font-weight: 700;
+    }
+    .bannar-left p{
+        font-size: 14px;
+font-weight: 400;
+    }
     .bannar-right img{
-    width: 253px;
-height: 265px;
-margin-left: ;
+    width: 283px;
+height: 285px;
+margin-left: 50px ;
     
 }
 .bannar .bannar-left{
@@ -169,7 +180,7 @@ margin-left: ;
 }
 .upcoming-match-right{
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
+    padding: 10px;
 }
 .upcoming-match-laft{
     flex-direction: column;
