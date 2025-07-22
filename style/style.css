@@ -122,6 +122,44 @@ line-height: 76px;
     padding: 16px;
 }
 
+
+/***footer part**/
+
+.contact-part{
+max-width: 1262px;
+height: 380px;
+margin: auto;
+background-color: black;
+text-align: center;
+padding: 30px;
+}
+
+.contact-part h1{
+    color: white;
+    margin-top: 60px;
+}
+.contact-part .reka{
+    width: 80%;
+    color:#f8e5e51a;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.contact-part ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 220px;
+}
+
+.contact-part ul li a{
+    color: #B9B9B9;
+    font-size: 16px;
+font-weight: 500;
+    text-decoration: none;
+}
+
+
+
 /*** laptop responsive***/
 
 @media (max-width:992px) {
@@ -149,7 +187,29 @@ line-height: 50px;
  .upcoming-match-right{
     grid-template-columns: repeat(2, 1fr);
  }
-    
+
+ /**footer responsive ***/
+
+ .contact-part{
+    width: auto;
+height: 345px;
+text-align: center;
+justify-content: center;
+padding: 20px;
+}
+.contact-part ul{
+    flex-wrap: wrap;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+} 
+.contact-part .reka{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+
+}
 }
 
 /*** mobile responsive ***/
@@ -159,15 +219,17 @@ line-height: 50px;
         text-align: center;
     }
     .bannar-left{
-        padding: 12px;
+        padding: 28px;
     }
     .bannar-left h2{
-        font-size: 25px;
+        font-size: 29px;
 font-weight: 700;
     }
     .bannar-left p{
         font-size: 14px;
 font-weight: 400;
+padding: 15px;
+text-align: center;
     }
     .bannar-right img{
     width: 283px;
@@ -186,4 +248,25 @@ margin-left: 50px ;
     flex-direction: column;
 }
 
+/* footer responsive */
+
+.contact-part{
+    width: full;
+height: 530px;
+text-align: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+}
+.contact-part ul{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+}
+.contact-part h1{
+
+    margin-top: 30px;
+}
 }
