@@ -157,7 +157,14 @@ padding: 30px;
 font-weight: 500;
     text-decoration: none;
 }
-
+.icon{
+  margin-top: 30px;
+    color:white;
+}
+#boro{
+ width: 50px;
+ height: 50px;
+}
 
 
 /*** laptop responsive***/
@@ -210,19 +217,27 @@ padding: 20px;
     margin-left: 60px;
 
 }
+.icon{
+  margin-top: 30px;
+    
+}
 }
 
 /*** mobile responsive ***/
-@media (max-width: 768px) {
+@media (max-width: 578px) {
     .bannar{
         flex-direction: column;
         text-align: center;
+        
     }
     .bannar-left{
-        padding: 28px;
+        padding: 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     .bannar-left h2{
-        font-size: 29px;
+        font-size: 30px;
 font-weight: 700;
     }
     .bannar-left p{
@@ -252,7 +267,7 @@ margin-left: 50px ;
 
 .contact-part{
     width: full;
-height: 530px;
+height: 577px;
 text-align: center;
 justify-content: center;
 flex-direction: column;
@@ -268,5 +283,9 @@ gap: 10px;
 .contact-part h1{
 
     margin-top: 30px;
+}
+.icon{
+  flex-direction: column;
+   gap: 20px;
 }
 }
